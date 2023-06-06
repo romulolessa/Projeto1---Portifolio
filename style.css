@@ -129,7 +129,7 @@ nav ul a svg{
     object-fit: cover;
 }
 .about-me .img-container .line{
-    width: calc(50% + 145px);
+    width: calc(50% + 16    0px);
     height: calc(100% + 50px);
     border: 1px solid var(--purple);
 
@@ -310,6 +310,9 @@ footer{
     .about-me .img-container{
         margin: 70px 0;
     }
+    .about-me .img-container .line {
+        width: calc(50% + 210px);
+    }
     .services, .portfolio{
         padding: 0;
     }
@@ -352,6 +355,9 @@ footer{
     }
     nav ul a {
         font-size: 16px;
+    }
+    .about-me .img-container .line {
+        width: calc(50% + 145px);
     }
 }
 /*Celular*/
